@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 189px 37px 177px;
+}
+li{
+    display: inline-block;
+    margin: 0 12px 0 12px;
+}
+.nav li a{
+    text-decoration: none;
+}
+.btn button{
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #70A7C6;
+    padding: 10px 25px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+}
+.slider{
+    height: 700px;
+    background-image: url(../Testing/images/sld\ 1.png);
+    position: relative;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+}
